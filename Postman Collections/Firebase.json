@@ -74,6 +74,28 @@
 				"url": "{{url}}/books/-NUKqFHSrsbYhE0180-z.json"
 			},
 			"response": []
+		},
+		{
+			"name": "PUT Person",
+			"id": "9bd1deef-eadc-40fe-9914-9767e2c9e36d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"imie\":\"Ola\",\r\n    \"nazwisko\":\"Gola\",\r\n    \"dataUrodzenia\":\"1992-01-28T12:00:00\",\r\n    \"aktywny\":true,\r\n    \"wzrost\":165.5,\r\n    \"zainteresowania\":[\"siatkówka\",\"gitara\"],\r\n    \"adres\":{\r\n        \"kraj\":\"pl\",\r\n        \"miasto\":\"Warszawa\"\r\n    },\r\n    \"jezyki\":[{\"symbol\":\"pl\",\"poziom\":6},{\"symbol\":\"en\",\"poziom\":2}]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{url}}persons.json"
+			},
+			"response": []
 		}
 	]
 }
