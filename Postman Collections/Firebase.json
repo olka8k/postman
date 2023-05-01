@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "47159e93-c0fb-4bba-b085-20e8a47975f1",
+		"name": "Firebase",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CREATE Person",
+			"id": "91c06f2a-64e6-42cc-9d97-07ed07f24fec",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"imie\":\"Ola\",\r\n    \"nazwisko\":\"Gola\",\r\n    \"dataUrodzenia\":\"1992-01-28T12:00:00\",\r\n    \"aktywny\":true,\r\n    \"wzrost\":165.5,\r\n    \"zainteresowania\":[\"siatkówka\",\"gitara\"],\r\n    \"adres\":{\r\n        \"kraj\":\"pl\",\r\n        \"miasto\":\"Warszawa\"\r\n    },\r\n    \"jezyki\":[{\"symbol\":\"pl\",\"poziom\":6},{\"symbol\":\"en\",\"poziom\":2}]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://ztm-ak-default-rtdb.europe-west1.firebasedatabase.app/persons.json"
+			},
+			"response": []
+		},
+		{
+			"name": "CREATE Book",
+			"id": "0d970622-c1e5-43f3-8521-22b6cf87b72b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tytuł\":\"Hobbit\",\r\n    \"autor\":\"Tolkien\",\r\n    \"liczbaStron\":249,\r\n    \"spisTreści\":[\r\n        {\"nazwaRozdziału\":\"rozdział 1\",\"numerStrony\":3},\r\n        {\"nazwaRozdziału\":\"rozdział 2\",\"numerStrony\":10},\r\n        {\"nazwaRozdziału\":\"rozdział 3\",\"numerStrony\":15},\r\n        {\"nazwaRozdziału\":\"rozdział 4\",\"numerStrony\":25}\r\n        ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://ztm-ak-default-rtdb.europe-west1.firebasedatabase.app/books.json"
+			},
+			"response": []
+		}
+	]
+}
