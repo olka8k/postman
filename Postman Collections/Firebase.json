@@ -84,7 +84,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "{{url}}/books/-NUKqFHSrsbYhE0180-z.json"
+				"url": "{{url}}/books.json"
 			},
 			"response": []
 		},
