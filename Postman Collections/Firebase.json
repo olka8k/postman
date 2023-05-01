@@ -41,19 +41,6 @@
 			"response": []
 		},
 		{
-			"name": "DELETE Person",
-			"id": "554b1463-9238-4659-87fc-128e86cc162b",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "DELETE",
-				"header": [],
-				"url": "{{url}}/persons/-NUMraLfOouADuSqFcKD.json"
-			},
-			"response": []
-		},
-		{
 			"name": "CREATE Book",
 			"id": "0d970622-c1e5-43f3-8521-22b6cf87b72b",
 			"protocolProfileBehavior": {
@@ -78,6 +65,19 @@
 		{
 			"name": "READ Book",
 			"id": "e8aedc5b-43d9-46d6-9487-a15a23dc4650",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{url}}/books/-NUKqFHSrsbYhE0180-z.json"
+			},
+			"response": []
+		},
+		{
+			"name": "LIST Books",
+			"id": "ebe60829-ecda-4c73-a7cd-72fc5d091287",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -129,6 +129,19 @@
 					}
 				},
 				"url": "{{url}}persons/-NUKkUPny4iOgQYW80Lk.json"
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE Person",
+			"id": "554b1463-9238-4659-87fc-128e86cc162b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "{{url}}/persons/-NUMraLfOouADuSqFcKD.json"
 			},
 			"response": []
 		}
