@@ -23,7 +23,7 @@
 						}
 					}
 				},
-				"url": "{{url}}persons.json"
+				"url": "https://ztm-ak-default-rtdb.europe-west1.firebasedatabase.app/persons.json"
 			},
 			"response": []
 		},
