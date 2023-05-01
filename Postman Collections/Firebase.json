@@ -61,6 +61,28 @@
 				"url": "https://ztm-ak-default-rtdb.europe-west1.firebasedatabase.app/books.json"
 			},
 			"response": []
+		},
+		{
+			"name": "READ Book",
+			"id": "e8aedc5b-43d9-46d6-9487-a15a23dc4650",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tytuł\":\"Hobbit\",\r\n    \"autor\":\"Tolkien\",\r\n    \"liczbaStron\":249,\r\n    \"spisTreści\":[\r\n        {\"nazwaRozdziału\":\"rozdział 1\",\"numerStrony\":3},\r\n        {\"nazwaRozdziału\":\"rozdział 2\",\"numerStrony\":10},\r\n        {\"nazwaRozdziału\":\"rozdział 3\",\"numerStrony\":15},\r\n        {\"nazwaRozdziału\":\"rozdział 4\",\"numerStrony\":25}\r\n        ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://ztm-ak-default-rtdb.europe-west1.firebasedatabase.app/books.json"
+			},
+			"response": []
 		}
 	]
 }
