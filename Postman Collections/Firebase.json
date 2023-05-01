@@ -47,9 +47,9 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
+				"method": "DELETE",
 				"header": [],
-				"url": "{{url}}persons/-NUKkUPny4iOgQYW80Lk.json"
+				"url": "{{url}}/persons/-NUMraLfOouADuSqFcKD.json"
 			},
 			"response": []
 		},
