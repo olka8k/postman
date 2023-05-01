@@ -76,7 +76,7 @@
 			"response": []
 		},
 		{
-			"name": "PUT Person",
+			"name": "UPDATE Person",
 			"id": "9bd1deef-eadc-40fe-9914-9767e2c9e36d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
