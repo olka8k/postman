@@ -58,7 +58,7 @@
 						}
 					}
 				},
-				"url": "https://ztm-ak-default-rtdb.europe-west1.firebasedatabase.app/books.json"
+				"url": "{{url}}books.json"
 			},
 			"response": []
 		},
