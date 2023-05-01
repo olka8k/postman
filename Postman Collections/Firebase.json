@@ -28,6 +28,28 @@
 			"response": []
 		},
 		{
+			"name": "READ Person",
+			"id": "87a50f6f-eb17-4d3d-9c29-34eb3080bacf",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"imie\":\"Ola\",\r\n    \"nazwisko\":\"Gola\",\r\n    \"dataUrodzenia\":\"1992-01-28T12:00:00\",\r\n    \"aktywny\":true,\r\n    \"wzrost\":165.5,\r\n    \"zainteresowania\":[\"siatkówka\",\"gitara\"],\r\n    \"adres\":{\r\n        \"kraj\":\"pl\",\r\n        \"miasto\":\"Warszawa\"\r\n    },\r\n    \"jezyki\":[{\"symbol\":\"pl\",\"poziom\":6},{\"symbol\":\"en\",\"poziom\":2}]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://ztm-ak-default-rtdb.europe-west1.firebasedatabase.app/persons.json"
+			},
+			"response": []
+		},
+		{
 			"name": "CREATE Book",
 			"id": "0d970622-c1e5-43f3-8521-22b6cf87b72b",
 			"protocolProfileBehavior": {
