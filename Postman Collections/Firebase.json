@@ -23,7 +23,7 @@
 						}
 					}
 				},
-				"url": "https://ztm-ak-default-rtdb.europe-west1.firebasedatabase.app/persons.json"
+				"url": "{{url}}persons.json"
 			},
 			"response": []
 		},
@@ -36,7 +36,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "https://ztm-ak-default-rtdb.europe-west1.firebasedatabase.app/persons/-NUKkUPny4iOgQYW80Lk.json"
+				"url": "{{url}}persons/-NUKkUPny4iOgQYW80Lk.json"
 			},
 			"response": []
 		},
