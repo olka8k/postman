@@ -54,42 +54,7 @@
 			"response": []
 		},
 		{
-			"name": "CREATE Book",
-			"id": "0d970622-c1e5-43f3-8521-22b6cf87b72b",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n    \"tytuł\":\"Hobbit\",\r\n    \"autor\":\"Tolkien\",\r\n    \"liczbaStron\":249,\r\n    \"spisTreści\":[\r\n        {\"nazwaRozdziału\":\"rozdział 1\",\"numerStrony\":3},\r\n        {\"nazwaRozdziału\":\"rozdział 2\",\"numerStrony\":10},\r\n        {\"nazwaRozdziału\":\"rozdział 3\",\"numerStrony\":15},\r\n        {\"nazwaRozdziału\":\"rozdział 4\",\"numerStrony\":25}\r\n        ]\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "{{url}}books.json"
-			},
-			"response": []
-		},
-		{
-			"name": "READ Book",
-			"id": "e8aedc5b-43d9-46d6-9487-a15a23dc4650",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": "{{url}}/books/-NUKqFHSrsbYhE0180-z.json"
-			},
-			"response": []
-		},
-		{
-			"name": "UPDATE Person",
+			"name": "UPDATE User",
 			"id": "9bd1deef-eadc-40fe-9914-9767e2c9e36d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -142,6 +107,41 @@
 				"method": "DELETE",
 				"header": [],
 				"url": "{{url}}/persons/-NUMraLfOouADuSqFcKD.json"
+			},
+			"response": []
+		},
+		{
+			"name": "READ Book",
+			"id": "e8aedc5b-43d9-46d6-9487-a15a23dc4650",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{url}}/books/-NUKqFHSrsbYhE0180-z.json"
+			},
+			"response": []
+		},
+		{
+			"name": "CREATE Book",
+			"id": "0d970622-c1e5-43f3-8521-22b6cf87b72b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tytuł\":\"Hobbit\",\r\n    \"autor\":\"Tolkien\",\r\n    \"liczbaStron\":249,\r\n    \"spisTreści\":[\r\n        {\"nazwaRozdziału\":\"rozdział 1\",\"numerStrony\":3},\r\n        {\"nazwaRozdziału\":\"rozdział 2\",\"numerStrony\":10},\r\n        {\"nazwaRozdziału\":\"rozdział 3\",\"numerStrony\":15},\r\n        {\"nazwaRozdziału\":\"rozdział 4\",\"numerStrony\":25}\r\n        ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{url}}books.json"
 			},
 			"response": []
 		}
