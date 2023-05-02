@@ -41,7 +41,7 @@
 			"response": []
 		},
 		{
-			"name": "READ Person",
+			"name": "READ User",
 			"id": "87a50f6f-eb17-4d3d-9c29-34eb3080bacf",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
