@@ -17,5 +17,33 @@
 			},
 			"response": []
 		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": {
+			"token": "d7ea189d075d89db50d36fbccab561116d7c287ad9d2a7a1e32b051ccba36987"
+		}
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "0c41df35-36d1-4114-a55c-67510556c0e2",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "1b40f01f-12db-4aa7-b579-6d67f4ae3d2a",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
 	]
 }
