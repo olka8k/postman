@@ -64,14 +64,14 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"imie\":\"Jola\",\r\n    \"nazwisko\":\"Gola\",\r\n    \"dataUrodzenia\":\"1992-01-28T12:00:00\",\r\n    \"aktywny\":true,\r\n    \"wzrost\":175.5,\r\n    \"zainteresowania\":[\"film\",\"gitara\"],\r\n    \"adres\":{\r\n        \"kraj\":\"pl\",\r\n        \"miasto\":\"Warszawa\"\r\n    },\r\n    \"jezyki\":[{\"symbol\":\"pl\",\"poziom\":6},{\"symbol\":\"en\",\"poziom\":2}]\r\n}",
+					"raw": "{\r\n    \"id\": 1343577,\r\n    \"name\": \"Joasia\",\r\n    \"email\": \"testowe@ztm1.ak\",\r\n    \"gender\": \"female\"\r\n    \r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
 				},
-				"url": "{{url}}persons/-NUKkUPny4iOgQYW80Lk.json"
+				"url": "{{url}}/public/v2/users/1343577"
 			},
 			"response": []
 		},
