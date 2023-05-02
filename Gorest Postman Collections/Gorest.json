@@ -6,14 +6,142 @@
 	},
 	"item": [
 		{
-			"name": "Get User Gorest",
-			"id": "ee44d945-c67d-47f8-a7a3-3e890fb360ba",
+			"name": "CREATE Person",
+			"id": "91c06f2a-64e6-42cc-9d97-07ed07f24fec",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"imie\":\"Ola\",\r\n    \"nazwisko\":\"Gola\",\r\n    \"dataUrodzenia\":\"1992-01-28T12:00:00\",\r\n    \"aktywny\":true,\r\n    \"wzrost\":165.5,\r\n    \"zainteresowania\":[\"siatkówka\",\"gitara\"],\r\n    \"adres\":{\r\n        \"kraj\":\"pl\",\r\n        \"miasto\":\"Warszawa\"\r\n    },\r\n    \"jezyki\":[{\"symbol\":\"pl\",\"poziom\":6},{\"symbol\":\"en\",\"poziom\":2}]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{url}}persons.json"
+			},
+			"response": []
+		},
+		{
+			"name": "READ Person",
+			"id": "87a50f6f-eb17-4d3d-9c29-34eb3080bacf",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": "{{url}}persons/-NUKkUPny4iOgQYW80Lk.json"
+			},
+			"response": []
+		},
+		{
+			"name": "CREATE Book",
+			"id": "0d970622-c1e5-43f3-8521-22b6cf87b72b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tytuł\":\"Hobbit\",\r\n    \"autor\":\"Tolkien\",\r\n    \"liczbaStron\":249,\r\n    \"spisTreści\":[\r\n        {\"nazwaRozdziału\":\"rozdział 1\",\"numerStrony\":3},\r\n        {\"nazwaRozdziału\":\"rozdział 2\",\"numerStrony\":10},\r\n        {\"nazwaRozdziału\":\"rozdział 3\",\"numerStrony\":15},\r\n        {\"nazwaRozdziału\":\"rozdział 4\",\"numerStrony\":25}\r\n        ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{url}}books.json"
+			},
+			"response": []
+		},
+		{
+			"name": "READ Book",
+			"id": "e8aedc5b-43d9-46d6-9487-a15a23dc4650",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{url}}/books/-NUKqFHSrsbYhE0180-z.json"
+			},
+			"response": []
+		},
+		{
+			"name": "LIST Books",
+			"id": "ebe60829-ecda-4c73-a7cd-72fc5d091287",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{url}}/books.json"
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE Person",
+			"id": "9bd1deef-eadc-40fe-9914-9767e2c9e36d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"imie\":\"Jola\",\r\n    \"nazwisko\":\"Gola\",\r\n    \"dataUrodzenia\":\"1992-01-28T12:00:00\",\r\n    \"aktywny\":true,\r\n    \"wzrost\":175.5,\r\n    \"zainteresowania\":[\"film\",\"gitara\"],\r\n    \"adres\":{\r\n        \"kraj\":\"pl\",\r\n        \"miasto\":\"Warszawa\"\r\n    },\r\n    \"jezyki\":[{\"symbol\":\"pl\",\"poziom\":6},{\"symbol\":\"en\",\"poziom\":2}]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{url}}persons/-NUKkUPny4iOgQYW80Lk.json"
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE Person - PATCH",
+			"id": "88860b44-7e77-47d5-bfa9-331bd874a6c7",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"imie\":\"Kasia\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{url}}persons/-NUKkUPny4iOgQYW80Lk.json"
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE Person",
+			"id": "554b1463-9238-4659-87fc-128e86cc162b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "{{url}}/persons/-NUMraLfOouADuSqFcKD.json"
 			},
 			"response": []
 		}
