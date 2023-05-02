@@ -29,14 +29,14 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"imie\":\"Ola\",\r\n    \"nazwisko\":\"Gola\",\r\n    \"dataUrodzenia\":\"1992-01-28T12:00:00\",\r\n    \"aktywny\":true,\r\n    \"wzrost\":165.5,\r\n    \"zainteresowania\":[\"siatkówka\",\"gitara\"],\r\n    \"adres\":{\r\n        \"kraj\":\"pl\",\r\n        \"miasto\":\"Warszawa\"\r\n    },\r\n    \"jezyki\":[{\"symbol\":\"pl\",\"poziom\":6},{\"symbol\":\"en\",\"poziom\":2}]\r\n}",
+					"raw": "{\"name\":\"Kasia\", \r\n\"gender\":\"female\", \r\n\"email\":\"testowe@ztm.ak\", \r\n\"status\":\"active\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
 				},
-				"url": "{{url}}persons.json"
+				"url": "{{url}}/public/v2/users"
 			},
 			"response": []
 		},
