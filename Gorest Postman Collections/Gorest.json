@@ -19,20 +19,7 @@
 			"response": []
 		},
 		{
-			"name": "READ Person",
-			"id": "87a50f6f-eb17-4d3d-9c29-34eb3080bacf",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": "{{url}}persons/-NUKkUPny4iOgQYW80Lk.json"
-			},
-			"response": []
-		},
-		{
-			"name": "CREATE Person",
+			"name": "CREATE User",
 			"id": "91c06f2a-64e6-42cc-9d97-07ed07f24fec",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -50,6 +37,19 @@
 					}
 				},
 				"url": "{{url}}persons.json"
+			},
+			"response": []
+		},
+		{
+			"name": "READ Person",
+			"id": "87a50f6f-eb17-4d3d-9c29-34eb3080bacf",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{url}}persons/-NUKkUPny4iOgQYW80Lk.json"
 			},
 			"response": []
 		},
