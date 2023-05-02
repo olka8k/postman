@@ -86,14 +86,14 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"imie\":\"Kasia\"\r\n}",
+					"raw": "{\r\n    \"status\": \"inactive\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
 				},
-				"url": "{{url}}persons/-NUKkUPny4iOgQYW80Lk.json"
+				"url": "{{url}}/public/v2/users/1343577"
 			},
 			"response": []
 		},
