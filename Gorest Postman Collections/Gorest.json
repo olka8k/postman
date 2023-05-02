@@ -106,7 +106,7 @@
 			"request": {
 				"method": "DELETE",
 				"header": [],
-				"url": "{{url}}/persons/-NUMraLfOouADuSqFcKD.json"
+				"url": "{{url}}/public/v2/users/1344055"
 			},
 			"response": []
 		},
