@@ -76,7 +76,7 @@
 			"response": []
 		},
 		{
-			"name": "UPDATE Person - PATCH",
+			"name": "UPDATE User - PATCH",
 			"id": "88860b44-7e77-47d5-bfa9-331bd874a6c7",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
